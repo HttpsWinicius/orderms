@@ -29,6 +29,8 @@ public class OrderCreatedListener {
 
         orderService.save(message.getPayload());
 
+        logger.info("Completed process");
+
 
     }
 }
