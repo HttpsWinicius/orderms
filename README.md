@@ -45,7 +45,7 @@ A aplicação estará disponível em http://localhost:8081.
 ## Uso/Exemplos
 
 Exemplo de Entrada (RabbitMQ):
-```
+```json
 {
    "codigoPedido": 1001,
    "codigoCliente":1,
@@ -64,7 +64,7 @@ Exemplo de Entrada (RabbitMQ):
 }
 ```
 Exemplo de Registro no MongoDB:
-```
+```json
 {
    "_id": 1002,
    "customerId": 1,
