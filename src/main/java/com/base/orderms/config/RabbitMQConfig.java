@@ -20,4 +20,6 @@ public class RabbitMQConfig {
     public Declarable orderCreatedQueue() {
         return new Queue(ORDER_CREATED_QUEUE);
     }
+
+
 }
