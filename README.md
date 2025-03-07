@@ -7,7 +7,7 @@ Order Microservice é um microsserviço responsável por consumir mensagens de p
 ## Pré-requisitos
 Antes de rodar a aplicação, certifique-se de ter instalado:\
 
-- Java 17+
+- Java 21+
 
 - Maven 3+
 
@@ -79,6 +79,12 @@ Exemplo de Registro no MongoDB:
    "_class": "com.base.orderms.entity.OrderEntity"
 }
 ```
+
+## Roadmap
+
+- Configurar agent datadog para observabilidade da API
+
+
 ## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
